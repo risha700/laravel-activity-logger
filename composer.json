@@ -1,6 +1,6 @@
 {
     "name": "risha/activity-logger",
-    "description": "logs every request with handful of information and generating encrypted UUID cookie",
+    "description": "Laravel visitor UUID generator",
     "license": "MIT",
     "keywords": ["visitor tracker"],
     "authors": [
