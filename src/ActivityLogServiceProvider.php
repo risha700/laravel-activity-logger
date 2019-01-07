@@ -14,8 +14,8 @@ class ActivityLogServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/stubs/ActivitylogMiddleware.php' => app_path('/Http/Middleware/')
-        ]);
+            __DIR__.'/stubs/ActivitylogMiddleware.php' => app_path('Http/Middleware/')
+        ],'app');
 
         $kernel = $this->app->make('Illuminate\Contracts\Http\Kernel');
         $kernel->pushMiddleware('\App\Http\Middleware\ActivitylogMiddleware::class');
