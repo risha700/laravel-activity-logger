@@ -1,5 +1,5 @@
 {
-    "name": "risha/laravel/activity-logger",
+    "name": "risha/activity-logger",
     "description": "logs every request with handful of information and generating encrypted UUID cookie",
     "license": "MIT",
     "authors": [
