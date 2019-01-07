@@ -1,0 +1,17 @@
+{
+    "name": "laravel/activity-logger",
+    "description": "logs every request with handful of information and generating encrypted UUID cookie",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Shehab",
+            "email": "ahbox@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel":{
+            "providers":["Logger\\ActivityLogServiceProvider"]
+        }
+    }
+}
