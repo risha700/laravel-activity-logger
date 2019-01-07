@@ -1,5 +1,5 @@
 {
-    "name": "risha/activity-logger",
+    "name": "risha/log-request-activity",
     "description": "logs every request with handful of information and generating encrypted UUID cookie",
     "license": "MIT",
     "authors": [
