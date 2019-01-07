@@ -9,6 +9,11 @@
         }
     ],
     "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ActivityLogger":"src/"
+        }
+    },
     "extra": {
         "laravel":{
             "providers":["ActivityLogger\\ActivityLogServiceProvider"]
