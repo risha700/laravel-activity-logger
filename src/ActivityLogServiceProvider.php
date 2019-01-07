@@ -1,6 +1,6 @@
 <?php
 
-namespace ActivityLogger\Providers;
+namespace ActivityLogger;
 
 use Illuminate\Support\ServiceProvider;
 
